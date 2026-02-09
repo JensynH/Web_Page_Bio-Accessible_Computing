@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hi, I'm Jensyn Huynh.</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Jensyn Huynh</h1>
+        <p><em>Computer Science Undergraduate</em></p>
+    </header>
+
+    <main id="content">
+        <section aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>
+                Hello! My name is <strong>Jensyn Huynh</strong>. I am an undergraduate Computer Science student, and I'm
+                taking this class because I am interested in learning more about accessibility, inclusive
+                design, and how technology can better serve people with disabilities.
+            </p>
+
+            <figure>
+                <!-- Non-decorative image -->
+                <img src="images/jensyn.jpg" alt="Photo of Jensyn smiling" width="300">
+                <figcaption>A recent photo so classmates can recognize me.</figcaption>
+            </figure>
+        </section>
+
+        <section aria-labelledby="accessibility-heading">
+            <h2 id="accessibility-heading">Accessibility Interest</h2>
+            <h3>Topics I Care About</h3>
+            <ul>
+                <li>Screen reader usability</li>
+                <li>Keyboard-only navigation</li>
+            </ul>
+
+            <p>
+                I am especially interested in working on projects that emphasize <strong>real-world accessibility
+                    needs</strong> and <em>user-centered design</em>.
+            </p>
+        </section>
+
+        <section aria-labelledby="collaboration-heading">
+            <h2 id="collaboration-heading">Working With Me</h2>
+            <p>
+                If you are interested in collaborating on an accessibility-focused project,
+                please reach out using the form below.
+            </p>
+
+
+            <!-- Form that initiates an action (email) -->
+            <form action="mailto:jensynhuynh@gmail.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Contact Me</legend>
+
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+
+
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- Decorative Image -->
+        <img src="images/decorative-divider.png" alt="" aria-hidden="true">
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jensyn Huynh</p>
+    </footer>
+</body>
+
+</html>

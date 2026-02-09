@@ -1,0 +1,144 @@
+:root {
+  --primary-color: #591a20;
+  --secondary-color: #fbf4f4;
+  --text-color: #1a1a1a;
+  --border-color: #d4b3b3;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  background-color: var(--secondary-color);
+  margin: 0;
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1.5rem;
+}
+
+header {
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: 4px solid var(--primary-color);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.25rem;
+}
+
+header p {
+  max-width: 100%;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  border-left: 6px solid var(--primary-color);
+  padding-left: 0.75rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+p {
+  max-width: 100ch;
+}
+
+figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+form {
+  background-color: var(--secondary-color);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  max-width: 500px;
+}
+
+fieldset {
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+}
+
+legend {
+  font-weight: 700;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+}
+
+button {
+  margin-top: 1.25rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #163bb0;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #ffffff;
+  border-top: 2px solid var(--border-color);
+}
